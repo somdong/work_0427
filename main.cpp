@@ -5,11 +5,12 @@ using namespace std;
 
 int main()
 {
-	int Money = 0; // 변수를 선언했으면 일단 초기화 시켜놔라
-	Money = 100;
-	srand(time(nullptr));
+	float R = 0.1f;
 
-	cout << rand() % 3 << endl;
+	cout << R + 0.1f << endl;
+	cout << R - 0.1f << endl;
+	cout << R * 0.1f << endl;
+	cout << R / 0.1f << endl;
 	
 	return 0;
 }
