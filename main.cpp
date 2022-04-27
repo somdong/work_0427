@@ -10,7 +10,6 @@ int main()
 	cout << R + 0.1f << endl;
 	cout << R - 0.1f << endl;
 	cout << R * 0.1f << endl;
-	cout << R / 0.1f << endl;
 	
 	return 0;
 }
