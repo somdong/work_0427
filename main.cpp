@@ -11,6 +11,7 @@ int main()
 	cout << (char)(Ch - 2) << endl;
 	cout << (char)(Ch * 2) << endl;
 	cout << (char)(Ch / 2) << endl;
+	cout << (Ch % 2) << endl;
 	
 	return 0;
 }
