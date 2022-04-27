@@ -5,11 +5,13 @@ using namespace std;
 
 int main()
 {
-	float R = 0.1f;
+	char Ch = 'A';
 
-	cout << R + 0.1f << endl;
-	cout << R - 0.1f << endl;
-	cout << R * 0.1f << endl;
+	cout << Ch << endl;
+	cout << Ch + 2 << endl;
+	cout << Ch - 2 << endl;
+	cout << Ch * 2 << endl;
+	cout << Ch / 2 << endl;
 	
 	return 0;
 }
